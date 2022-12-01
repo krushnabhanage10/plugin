@@ -7,7 +7,8 @@
   "helpMarkDown": "Replace with markdown to show in help",
   "category": "Utility",
   "visibility": [
-    "Build"
+    "Build",
+    "Release"
   ],
   "demands": [],
   "version": {
