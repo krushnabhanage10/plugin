@@ -28,9 +28,9 @@ steps:
   inputs:
     rootFolder: .
     patternManifest: 'azure-devops-extension.json'
-    publisherId: JakubRumpca
+    publisherId: KRUSHNABHANAGE10
     extensionId: azure-pipelines-html-report
-    extensionName: 'Html Viewer'
+    extensionName: 'Html Report Viewer'
     extensionVisibility: public
     extensionPricing: free
   condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'main'))
@@ -43,7 +43,7 @@ steps:
     publisherId: JakubRumpca
     extensionId: azure-pipelines-html-report
     extensionTag: dev
-    extensionName: 'Html Viewer Dev'
+    extensionName: 'Html Report Viewer Dev'
     extensionVersion: '1.0.$(Build.BuildId)'
     updateTasksVersion: true
     extensionVisibility: private
